@@ -7,7 +7,5 @@ git push -u origin main
 rm -f .git/index.lock
 git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com"
-# Add all files
-git add .
-# Create commit
-git commit -m "Deploy ISTANI Fitness Platform - Enterprise Ready"
+# Add all files git add .
+# Create commit git commit -m "Deploy ISTANI Fitness Platform - Enterprise Ready"
