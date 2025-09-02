@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Ezoic privacy scripts must load first -->
+  <script src="https://cmp.gatekeeperconsent.com/min.js" data-cfasync="false"></script>
+  <script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
+  <!-- Ezoic header script -->
+  <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+  <script>
+    window.ezstandalone = window.ezstandalone || {};
+    ezstandalone.cmd = ezstandalone.cmd || [];
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ISTANI Fitness – Smart Tools & Picks</title>
   <meta name="description" content="ISTANI: science-based fitness tips, product recommendations, and smart calculators." />
+  <meta name="monetag" content="89b7712bc987dd270beac0e1e719e4fb">
   <!-- AdSense script (load once in <head>) -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2695159317297870" crossorigin="anonymous"></script>
   <!-- Google Custom Search Engine script -->
@@ -50,14 +60,11 @@
   <section>
     <h2>Sponsored</h2>
     <p>The ads below help support our work:</p>
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-2695159317297870"
-         data-ad-slot="1234567890"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
+    <div id="ezoic-pub-ad-placeholder-101"></div>
     <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
+      ezstandalone.cmd.push(function () {
+        ezstandalone.showAds(101);
+      });
     </script>
   </section>
 
