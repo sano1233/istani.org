@@ -1,0 +1,8 @@
+{
+  "name": "istani",
+  "version": "1.0.0",
+  "description": "Static site for ISTANI Fitness",
+  "scripts": {
+    "test": "echo 'No tests specified' && exit 0"
+  }
+}
