@@ -1,10 +1,6 @@
 {
   "name": "istani.org",
   "version": "1.0.0",
-  "private": true,
-  "description": "ISTANI site configuration with basic test script",
-  "scripts": {
-    "test": "echo \"No tests specified\" && exit 0"
   },
   "keywords": [],
   "author": "",
