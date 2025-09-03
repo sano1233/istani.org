@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "next build",
+    "build": "echo \"No build step required\"",
     "test": "echo \"No tests specified\""
+  },
+  "engines": {
+    "node": "18.x"
   },
   "keywords": [],
   "author": "",
