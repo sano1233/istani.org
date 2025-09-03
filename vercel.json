@@ -1,8 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "index.html", "use": "@vercel/static" }
+    { "src": "**/*", "use": "@vercel/static" }
   ],
+  "github": { "enabled": true },
   "redirects": [
     { "source": "/index", "destination": "/index.html", "statusCode": 301 }
   ],
