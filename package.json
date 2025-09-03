@@ -1,0 +1,9 @@
+{
+  "name": "istani-site",
+  "version": "1.0.0",
+  "description": "Static site for istani.org",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  }
+}
