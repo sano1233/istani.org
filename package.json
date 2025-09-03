@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "next build",
+    "build": "echo \"Static site; no build step\"",
     "test": "echo \"No tests specified\""
   },
   "keywords": [],

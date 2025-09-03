@@ -1,6 +1,4 @@
-# Next.js on Netlify: native support
+# Static site deployment
 [build]
   command = "npm run build"
-  publish = ".next"
-
-# Do NOT add the old @netlify/plugin-nextjs manually.
+  publish = "."
