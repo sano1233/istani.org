@@ -1,9 +1,6 @@
 {
   "name": "istani.org",
   "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "test": "echo \"No tests specified\""
   },
   "keywords": [],
   "author": "",
