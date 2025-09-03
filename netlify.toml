@@ -1,5 +1,6 @@
+# Static site deployment
 [build]
-  base = "."
+  command = "npm run build"
   publish = "."
 
 [[redirects]]

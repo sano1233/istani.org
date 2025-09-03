@@ -1,11 +1,12 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "builds": [
     { "src": "*.html", "use": "@vercel/static" },
     { "src": "*.txt", "use": "@vercel/static" },
     { "src": "*.xml", "use": "@vercel/static" }
   ],
-  "github": { "enabled": true },
+  "git": { "productionBranch": "main" },
   "redirects": [
     { "source": "/index", "destination": "/index.html", "statusCode": 301 }
   ],
